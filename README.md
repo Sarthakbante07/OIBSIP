@@ -39,10 +39,25 @@ The temperature converter is a practical utility for converting temperatures bet
 - CSS
 - JavaScript
 
-## Installation
+##Usage
+-Landing Page
+Open landing-page.html in a web browser.
+Explore the landing page, which serves as the introduction to the overall project.
+Experience the visual and interactive elements designed for an engaging landing experience.
+-Portfolio
+Open portfolio.html in a web browser.
+Navigate through the portfolio to explore showcased work, skills, and relevant information.
+Get a comprehensive overview of capabilities and achievements through the portfolio content.
+-Temperature Converter
+Run temperature-converter.html to launch the temperature converter application.
+Utilize the utility to convert temperatures between different units.
+Interact with the converter to perform practical temperature conversions for various purposes.
+Run temperature-converter.html to use the temperature converter.
+##Screenshots
+Include screenshots or links to screenshots showcasing your projects.
 
-To set up the projects locally, follow these steps:
+##Contributing
+Feel free to contribute by opening issues, providing feedback, or creating pull requests.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
+##License
+This project is licensed under the MIT License.   
