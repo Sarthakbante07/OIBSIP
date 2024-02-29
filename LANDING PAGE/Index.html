@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Landing Page</title>
+</head>
+<body>
+
+<header class="header">
+  <nav>
+    <div class="nav__bar">
+      <div class="logo">
+        <a href="#"><img src="assets/logo3.png" alt="logo" /></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn"></div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#best">Best Selling</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#menu">Menu</a></li>
+     
+    </ul>
+    <button class="btn nav__btn">Order Now</button>
+  </nav>
+  <div class="section__container header__container" id="home">
+    <p>Fresh - Sugar Free - Healthy</p>
+    <h1>Revitalize Your Day with Fresh,<br /> Flavorful <span>Juices! </span>.</h1>
+  </div>
+</header>
+
+<section class="mid">
+  <div class="classone">
+    <section class="black-box">
+      <div class="fruit">
+        <label for="Fruit-list">Choose a Fruit :<br /></label>
+        <select name="Fruit-list" id="Fruit-list">
+          <option value="Banana">Banana</option>
+          <option value="Apple">Apple</option>
+          <option value="Mango">Mango</option>
+          <option value="Sugarcane">Sugarcane</option>
+        </select>
+      </div>
+      <div class="quantity">
+        <label for="quantity-list">Choose a quantity :<br /></label>
+        <select name="quantity-list" id="quantity-list">
+          <option value="1 Glass">1 Glass</option>
+          <option value="2 Glass">2 Glass</option>
+          <option value="3 Glass">3 Glass</option>
+          <option value="4 Glass">4 Glass</option>
+        </select>
+      </div>
+      <button class="btn nav__btn">Check Price</button>
+    </section>
+  </div>
+  <div class="classtwo" id="about">
+    <div class="about__content">
+      <p class="section__subheader" data-sr-id="4">ABOUT US</p>
+      <h2 class="section__header" data-sr-id="5">The Best Holidays Start Here!</h2>
+      <p class="section__description" data-sr-id="6">
+        "Indulge in a symphony of flavors at <b>"Pure Sip"</b>. Our commitment to freshness and quality brings you a vibrant selection of natural juices. Experience the fusion of health and taste, making every sip a revitalizing journey. Your ultimate destination for pure refreshment!"      </p>
+      <div class="about__btn" data-sr-id="7">
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section__container room__container" id="best">
+  <p class="section__subheader">Best Selling</p>
+  <h2 class="section__header">Top Picks for Taste Triumphs.</h2>
+  <div class="room__grid">
+    <div class="room__card" data-sr-id="9">
+      <div class="room__card__image">
+        <img src="./assets/g1.jpg" alt="room">
+        <div class="room__card__icons">
+          <span><i class="ri-heart-fill"></i></span>
+        </div>
+      </div>
+      <div class="room__card__details">
+        <h4>Guava Juice</h4>
+        <p>Savor the tropical allure of our Guava Juice, the sun-kissed essence of ripe guavas in every drop.</p>
+        <button class="btn">Order Now</button>
+      </div>
+    </div>
+    <div class="room__card" data-sr-id="10">
+      <div class="room__card__image">
+        <img src="./assets/m1.jpg" alt="room">
+        <div class="room__card__icons">
+          <span><i class="ri-heart-fill"></i></span>
+        </div>
+      </div>
+      <div class="room__card__details">
+        <h4>Orange Juice</h4>
+        <p>Pure sunshine in a glass, bursting with natural goodness for a refreshing experience.</p>
+        <button class="btn">Order Now</button>
+      </div>
+    </div>
+    <div class="room__card" data-sr-id="11">
+      <div class="room__card__image">
+        <img src="./assets/c1.jpg" alt="room">
+        <div class="room__card__icons">
+          <span><i class="ri-heart-fill"></i></span>
+        </div>
+      </div>
+      <div class="room__card__details">
+        <h4>Vegetables Juice</h4>
+        <p>Energize your body with our nutrient-packed Vegetable Juice, It boost your well-being.</p>
+        <button class="btn">Order Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service" id="service">
+  <div class="service-img">
+    <img src="./assets/img 3.jpg">
+  </div>
+  <div class="service_info">
+    <p class="service-head">SERVICES</p>
+    <h2 class="service-headline">Strive Only For The Best.</h2>
+    <ul class="service__list">
+      <li data-sr-id="13">
+        <span><i class="ri-shield-star-line"></i></span>
+        Premium Juice Blends
+      </li>
+      <li data-sr-id="14">
+        <span><i class="ri-24-hours-line"></i></span>
+        Express Delivery
+      </li>
+      <li data-sr-id="15">
+        <span><i class="ri-headphone-line"></i></span>
+        Juice Subscription Services
+      </li>
+      <li data-sr-id="16">
+        <span><i class="ri-map-2-line"></i></span>
+        Personalized Detox Plans
+      </li>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<section class="mid">
+  <div class="fmid">
+    <div class="fcontent">
+      <img src="./assets/discount.png">
+      <div class="fc">
+        <h3>Discount Voucher</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="fcontent">
+      <img src="./assets/fresh.png">
+      <div class="fc">
+        <h3>Fresh Healthy Juices</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="fcontent">
+      <img src="./assets/delivery.png">
+      <div class="fc">
+        <h3>Fast Home Delivery</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="line"></div>
+
+<section class="grid" id="menu">
+  <div class="menu">
+    Our Menu
+  </div>
+  <div class="text">
+    Explore Our Menu
+  </div>
+  <div class="pic">
+    <div class="img-item1">
+      <img class="img1" src="./assets/g5.jpg">
+    </div>
+    <div class="img-item2">
+      <img class="img1" src="./assets/g8.jpg">
+    </div>
+    <div class="img-item3">
+      <img class="img1" src="./assets/g6.jpg">
+    </div>
+    <div class="img-item4">
+      <img class="img1" src="./assets/g7.jpg">
+    </div>
+    <div class="img-item5">
+      <img class="img1" src="./assets/g3.jpg">
+    </div>
+    <div class="img-item6">
+      <img class="img1" src="./assets/g4.jpg">
+    </div>
+    <div class="img-item7">
+      <img class="img1" src="./assets/g2.jpg">
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="containerb">
+  <footer class="footer">
+    <div>
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="assets/logo2.png" alt="logo"></a>
+        </div>
+        <p class="section__description">
+          Pure Sip invites you to a haven of natural freshness. Explore our diverse range of vibrant, pure juices, meticulously crafted for a wholesome and invigorating experience. Your sip of wellness awaits.
+        </p>
+        <button class="btn">Order Now</button>
+      </div>
+    </div>
+    <div class="btext">
+      <h3>Main Links</h3>
+      <p>Order Tracking<br>New Order<br>Contact Us<br>News & Blogs</p>
+    </div>
+    <div class="btext">
+      <h3>Support</h3>
+      <p>About Us<br>Privacy Policy<br>Terms & Conditions</p>
+    </div>
+    <div class="btext">
+      <h3>Contact US</h3>
+      <input type="email" placeholder="Enter Your Email">
+      <h3 class="follow">Follow Us</h3>
+    <div class="icon">
+      <div class="footer__socials">
+        <a href="#"><img src="assets/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="assets/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="assets/youtube.png" alt="youtube"></a>
+        <a href="#"><img src="assets/twitter.png" alt="twitter"></a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<section class="last-footer">
+  <h2 class="end">Copyright @ Sarthak Bante</h2>
+</section>
+</body>
+</html>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+</body>
+</html>
